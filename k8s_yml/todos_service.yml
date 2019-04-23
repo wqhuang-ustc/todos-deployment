@@ -5,7 +5,7 @@ metadata:
   labels:
     name: todos-svc
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   ports:
     - port: 5000
       targetPort: 5000
